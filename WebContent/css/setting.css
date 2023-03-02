@@ -1,0 +1,78 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#header>h1{
+    width: 300px;
+    height: 42px;
+    text-indent: -999px;
+    margin:auto;
+    background-image: url("../imgs/2.png");
+  	background-size : 100% ;
+  	background-repeat:no-repeat;
+  
+    padding-bottom: 30px;
+}
+#menu,#footer{
+    background-color: rgb(121,80,35);
+}
+#menu{
+   overflow: hidden;
+}
+#menu>ul{
+    list-style: none;
+    text-align: center;
+    
+    width: 480px;
+    margin: 0px auto;
+    
+}
+#menu>ul>li{
+    float: left;
+    overflow: visible;
+    width: 100px;
+    height: 40px;
+    margin: 0px 5px;  
+}
+
+#menu>ul>li>a{
+	margin-top: 10px;
+	border-radius:10px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: '휴먼옛체';
+    background-color: rgb(238,217,182);
+}
+#menu>ul>li>a:hover{
+    background-color: rgb(219,153,50);
+}
+#menu+div{
+    clear: both;
+}
+#footer{
+	font-family: '휴먼옛체';
+	color:rgb(238,217,182);
+    text-align: center;
+    font-size: 10pt;
+    position: fixed;
+    bottom: 0px;
+    padding: 15px;
+    width: 100%;
+}
+#login{
+   	position: absolute;
+	right: 20px;
+	top: 30px;
+	display: flex;
+    }
+#login>a{
+	margin-right:20px;
+	float:right;
+	text-decoration: none;
+	font-family: '휴먼옛체';
+}
